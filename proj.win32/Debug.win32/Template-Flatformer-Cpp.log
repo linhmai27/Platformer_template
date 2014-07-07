@@ -1,0 +1,158 @@
+﻿Build started 7/5/2014 7:55:22 AM.
+     1>Project "D:\Game\bigshit\cocos2d-x-3.0alpha1\projects\Template-Flatformer-Cpp\proj.win32\Template-Flatformer-Cpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\audio\include" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\external" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\extensions" /I..\Classes /I.. /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\2d" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\gui" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\base" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\physics" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\math\kazmath\include" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\cocos\2d\platform\win32" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Player.cpp
+         Player.cpp
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(12): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(686) : see declaration of 'cocos2d::CCSprite'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(14): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(15): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(20): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(28): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(29): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.h(30): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(4): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(4): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(7): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(7): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(10): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(21): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(21): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(22): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(22): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(24): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(24): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(25): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(25): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(28): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(34): warning C4996: 'cocos2d::ccpSub': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(79) : see declaration of 'cocos2d::ccpSub'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(41): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(41): warning C4996: 'cocos2d::ccpMult': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(90) : see declaration of 'cocos2d::ccpMult'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(42): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(42): warning C4996: 'cocos2d::ccpMult': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(90) : see declaration of 'cocos2d::ccpMult'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(45): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(46): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(49): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(52): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(52): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(53): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(53): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(55): warning C4996: 'cocos2d::ccpClamp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(247) : see declaration of 'cocos2d::ccpClamp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(58): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(58): warning C4996: 'cocos2d::ccpMult': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(90) : see declaration of 'cocos2d::ccpMult'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(59): warning C4996: 'cocos2d::ccpAdd': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(68) : see declaration of 'cocos2d::ccpAdd'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(63): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(64): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(66): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(66): warning C4996: 'cocos2d::Node::boundingBox': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccnode.h(994) : see declaration of 'cocos2d::Node::boundingBox'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccnode.h(994) : see declaration of 'cocos2d::Node::boundingBox'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(67): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(67): warning C4996: 'cocos2d::ccpSub': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(79) : see declaration of 'cocos2d::ccpSub'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(68): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(70): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(74): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(78): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(81): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(82): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(86): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(89): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(114): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(116): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(46) : see declaration of 'cocos2d::ccp'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(117): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(118): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(140): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(143): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(144): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+     1>d:\game\bigshit\cocos2d-x-3.0alpha1\projects\template-flatformer-cpp\classes\player.cpp(147): warning C4996: 'cocos2d::CCRect': was declared deprecated
+                 d:\game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\ccdeprecated.h(782) : see declaration of 'cocos2d::CCRect'
+       PreLinkEvent:
+         if not exist "D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\" mkdir "D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\"
+         xcopy /Y /Q "D:\Game\bigshit\cocos2d-x-3.0alpha1\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\"
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\Template-Flatformer-Cpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\\" /LIBPATH:"D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\Template-Flatformer-Cpp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\Template-Flatformer-Cpp.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\DebugDraw.obj
+         Debug.win32\GameLevelLayer.obj
+         Debug.win32\MovingFlatform.obj
+         Debug.win32\Player.obj
+         Debug.win32\main.obj
+         "D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\libcocos2d.lib"
+         "D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\libAudio.lib"
+         "D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\libchipmunk.lib"
+         Template-Flatformer-Cpp.vcxproj -> D:\Game\bigshit\cocos2d-x-3.0alpha1\build\Debug.win32\Template-Flatformer-Cpp.exe
+     1>Done Building Project "D:\Game\bigshit\cocos2d-x-3.0alpha1\projects\Template-Flatformer-Cpp\proj.win32\Template-Flatformer-Cpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.24

@@ -3,33 +3,28 @@
 
 #include "cocos2d.h"
 using namespace cocos2d;
-
-#define Vector CCPoint
-
+#include "BasePlatformObject.h"
 
 
-class Player : public CCSprite 
+
+class Player : public BasePlatformOject 
 {
 public:
-	CC_PROPERTY(Vector, _vVelocity, Velocity);
-	CC_PROPERTY(CCPoint, _pDesiredPosition, DesiredPosition);
-	CC_PROPERTY(bool, _onGround, OnGround);
+
 	CC_PROPERTY(bool, _stateRun, StateRun);
 	CC_PROPERTY(bool, _stateJump, StateJump);
 	CC_PROPERTY(bool, _stateHitAbove, StateHitAbove);
-	CC_PROPERTY(Vector, _vDirection, Direction);
 	CC_PROPERTY(bool, _onFlatform, OnFlatform);
 
 
-	Player(const char*);
+	Player(const char* ,GameLevelLayer*, Point position);
 	~Player();
 
+
 	void		update(float dt);
-	CCRect		collisionBoundingBox();
-	CCRect		RectInset(CCRect, float, float);
-	CCRect		RectOffset(CCRect, float, float);
-
-
+	void		checkForAndResolveCollisions();
+	void		updateMovement(float);
+	void		updateCollision();
 
 };
 

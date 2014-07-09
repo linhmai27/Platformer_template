@@ -8,6 +8,7 @@ enum gameObjectTag {  };
 enum gameStaticObjectTag { PLAYER, BACKGROUND , DEBUGPOLYGON};
 class Player;
 class MovingFlatform;
+class Enemy;
 class GameLevelLayer : public cocos2d::Layer
 {
 public:
@@ -16,14 +17,9 @@ public:
 
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();  
-    
+    void initializeEnemy();
     // a selector callback
     void		menuCloseCallback(Object* pSender);
-	CCPoint		tileCoordForPosition( CCPoint pos);
-	CCRect		tileRectFromTileCoords( CCPoint pos);
-	CCArray*	getSurroundingTilesAtPosition(CCPoint position);
-	void		checkForAndResolveCollisions();
-	void		checkForAndResolveCollisionsMovingFlatform();
 
 	void		setViewPointCenter();
 
@@ -34,11 +30,15 @@ public:
 	void		update(float dt);
     // implement the "static create()" method manually
     CREATE_FUNC(GameLevelLayer);
+	TMXTiledMap* getMap() { return _map;}
+	TMXLayer* getWalls() { return _walls;}
 private:
 	TMXTiledMap*		_map;
 	TMXLayer*			_walls;
+	TMXLayer*			_lMonster;
 	DebugDraw*			_debugDraw;
 	Player*				_player;
+	std::list<Enemy*> _enemies;
 	std::list<MovingFlatform*> _movingFlatforms;
 };
 
